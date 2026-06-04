@@ -1,4 +1,8 @@
 @layer components {
+  body:not(.modal-overlay-active) #modal_overlay {
+    @apply !hidden !pointer-events-none;
+  }
+
   #modal_overlay {
     @apply pointer-events-none fixed top-0 bottom-0 hidden overflow-auto bg-transparent;
 

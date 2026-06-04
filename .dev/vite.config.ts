@@ -77,6 +77,7 @@ function createLocalServePlugin(): Plugin {
   const jsRoutes: Record<string, string> = {
     "/luci-static/resources/sidebar-shadcn.js": "src/resource/sidebar-shadcn.js",
     "/luci-static/resources/menu-shadcn.js": "src/resource/menu-shadcn.js",
+    "/luci-static/resources/modal-shadcn.js": "src/resource/modal-shadcn.js",
   };
 
   const buildHmrMap = (routes: Record<string, string>, isVitePath: boolean) => {

@@ -15,6 +15,7 @@
           window.ShadcnSidebar = m;
         });
       }, { once: true });
+      L.require('modal-shadcn');
       L.require('menu-shadcn');
     </script>
     {% endif %}
